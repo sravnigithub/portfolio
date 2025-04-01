@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const educationData = [
-        { degree: "Bachelor of Technology", school: "JNTU-GV", field: "Information Technology", year: "2021-2025", grade: "8.04/10.0",image: "/home/sravani/Desktop/college.jpeg" },
-        { degree: "Intermediate", school: "Narayana Junior College", field: "Physics, Maths, Chemistry", year: "2021", grade: "97%",image:"/home/sravani/Desktop/inter.png" },
-        { degree: "Secondary Education", school: "Gurajada Public School", year: "2019", grade: "10.0/10.0",image:"/home/sravani/Desktop/school.jpeg" }
+        { degree: "Bachelor of Technology", school: "JNTU-GV", field: "Information Technology", year: "2021-2025", grade: "8.04/10.0" },
+        { degree: "Intermediate", school: "Narayana Junior College", field: "Physics, Maths, Chemistry", year: "2021", grade: "97%" },
+        { degree: "Secondary Education", school: "Gurajada Public School", year: "2019", grade: "10.0/10.0" }
     ];
 
     const certificationsData = [
@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     ];
 
     const projectsData = [
-        { title: "Academic Results Management System", description: "Developed a backend system using PHP for managing academic result pages.", tech: "SQL, PHP", link: "https://github.com/sravnigithub/College-Results-Page", image: "/home/sravani/Desktop/results.jpeg" },
-        { title: "Faculty Management", description: "Developed a system for faculty record management using JDBC and MySQL.", tech: "Java, JDBC, SQL", link: "https://github.com/sravnigithub/FacultyManagement", image: "/home/sravani/Desktop/faculty.jpeg" },
-        { title: "AI-Based Map-Matching", description: "Developed a map-matching algorithm using AI/ML to classify vehicular movement.", tech: "AI-ML, Python, R", link: "https://github.com/sravnigithub/datascience-aiml-mapmatching", image: "/home/sravani/Desktop/AI.png" }
+        { title: "Academic Results Management System", description: "Developed a backend system using PHP for managing academic result pages.", tech: "SQL, PHP", link: "https://github.com/sravnigithub/College-Results-Page", image:"https://raw.githubusercontent.com/sravnigithub/portfolio/main/results.jpeg" },
+        { title: "Faculty Management", description: "Developed a system for faculty record management using JDBC and MySQL.", tech: "Java, JDBC, SQL", link: "https://github.com/sravnigithub/FacultyManagement", image: "https://raw.githubusercontent.com/sravnigithub/portfolio/main/faculty.jpeg" },
+        { title: "AI-Based Map-Matching", description: "Developed a map-matching algorithm using AI/ML to classify vehicular movement.", tech: "AI-ML, Python, R", link: "https://github.com/sravnigithub/datascience-aiml-mapmatching", image: "https://raw.githubusercontent.com/sravnigithub/portfolio/main/Desktop/AI.png" }
     ];
 
     function populateEducation() {
