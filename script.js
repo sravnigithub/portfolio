@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function () {
     const educationData = [
         { degree: "Bachelor of Technology", school: "JNTU-GV", field: "Information Technology", year: "2021-2025", grade: "8.04/10.0" },
         { degree: "Intermediate", school: "Narayana Junior College", field: "Physics, Maths, Chemistry", year: "2021", grade: "97%" },
@@ -41,6 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <p>Issued by ${cert.issuer}, ${cert.year}</p>
                 </div>`;
         });
+
+        // Adding click event to certification titles
         document.querySelectorAll(".cert-title").forEach(title => {
             title.addEventListener("click", function () {
                 window.open(this.dataset.link, "_blank");
@@ -60,8 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="tags">${project.tech}</div>
                 </div>`;
         });
+
+        // Adding click event to project images
         document.querySelectorAll(".project-image").forEach(img => {
-            img.addEventListener("click", function () {
+            img.addEventListener("click", function (event) {
+                event.stopPropagation(); // Prevents interference from other click events
                 window.open(this.dataset.link, "_blank");
             });
         });
@@ -70,5 +75,4 @@ document.addEventListener("DOMContentLoaded", function () {
     populateEducation();
     populateCertifications();
     populateProjects();
-});
-
+};
