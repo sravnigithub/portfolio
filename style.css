@@ -40,7 +40,8 @@ nav {
 }
 
 .social-logo {
-    font-size: 18px;  /* Adjust icon size (smaller than default) */
+    font-size: auto;
+    /* Adjust icon size (smaller than default) */
     vertical-align: middle;  /* Aligns with text */
     margin-right: 6px;  /* Adds spacing between icon and text */
 }
