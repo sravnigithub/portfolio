@@ -41,7 +41,6 @@ nav {
 
 .social-logo {
     width: 30px;  /* Small icon size */
-    height: 30px;
     object-fit: contain; /* Ensures the image is scaled properly */
     transition: transform 0.3s ease-in-out;
 }
