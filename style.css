@@ -30,26 +30,25 @@ nav {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 8px;
-    margin-top: 8px;
+    gap: 15px; /* Adjust spacing between icons */
+    margin-top: 20px;
 }
 
 .social-links a {
+    display: inline-block;
     text-decoration: none;
 }
 
 .social-logo {
-    width: 30px;  /* Adjust the size of the logos */
-    height: 30px; /* Ensure the height and width are equal to make them look consistent */
-    object-fit: contain; /* Makes sure the image is scaled without distortion */
-    transition: transform 0.3s; /* For a smooth hover effect */
+    width: 30px;  /* Small icon size */
+    height: 30px;
+    object-fit: contain; /* Ensures the image is scaled properly */
+    transition: transform 0.3s ease-in-out;
 }
 
 .social-links a:hover .social-logo {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+    transform: scale(1.2); /* Slight zoom on hover */
 }
-
-
 
 
 
